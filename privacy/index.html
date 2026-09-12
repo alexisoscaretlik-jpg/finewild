@@ -19,17 +19,14 @@
 
     <p style="margin-top:22px">
       Finewild is a free discovery app for fashion, beauty and home design.
-      In the Communite catalog update, browsing, favorites and the bag work without an account. The app has
+      The account-free release does not offer sign-in or create accounts. Browsing, favorites and the bag work on your device. The app has
       no subscriptions, paid placement, or advertising. This policy explains what data
       the app uses and why.
     </p>
 
     <h2>What we collect</h2>
     <ul>
-      <li><strong>Account.</strong> When you sign in with Apple or Google we receive your name
-        and email address (with Sign in with Apple you can hide your real email). This is
-        stored with our database provider, Supabase, hosted in the EU (Frankfurt,
-        eu-central-1).</li>
+      <li><strong>Previous accounts.</strong> Earlier versions offered Apple and Google sign-in and stored your name and email address with Supabase in the EU (Frankfurt, eu-central-1). The account-free release does not contact that sign-in service. Existing account records are preserved until deletion is requested and completed.</li>
       <li><strong>Favorites.</strong> Favorites in the Communite catalog are stored on your
         device and are not uploaded for account synchronization. Earlier versions stored
         account-linked favorites with Supabase. Those historical records remain separate
@@ -38,15 +35,8 @@
         on Cloudflare. Cloudflare receives connection information, including your IP address,
         to deliver that content. Catalog requests do not include your Finewild account details,
         bag, addresses or saved-favorite identifiers.</li>
-      <li><strong>Usage analytics.</strong> We use PostHog's EU service to understand app use
-        and improve reliability. It receives app lifecycle events and review-prompt events,
-        app and device information (such as app version, device model, operating system,
-        and language), and a randomly assigned identifier. When you sign in, analytics
-        can be linked to your account identifier. PostHog can derive approximate location
-        from your IP address; Finewild does not request your device's GPS location.
-        This data is never sold or shared with brands in a form that identifies you.</li>
-      <li><strong>Data kept on your device.</strong> Your bag and saved delivery addresses
-        are stored locally. Finewild does not upload those addresses or collect card or
+      <li><strong>Historical analytics.</strong> Earlier releases used PostHog's EU service for app lifecycle and review-prompt events, app/device information and a randomly assigned identifier that could be linked to a signed-in account. The account-free release does not initialize that service or send new analytics events. Historical analytics remain subject to the access and deletion rights below.</li>
+      <li><strong>Data kept on your device.</strong> Your bag and Communite favorites are stored locally. Saved delivery addresses from earlier versions remain on the device and are not reassigned to another account. Finewild does not upload those addresses or collect card or
         payment information. You enter delivery and payment details on Communite's website
         when you choose to order.</li>
     </ul>
@@ -63,20 +53,14 @@
     <h2>Where your data lives</h2>
     <p>
       Account and historical synced favorites data is stored with Supabase in the European Union
-      (AWS eu-central-1, Frankfurt). Usage analytics is processed by PostHog's EU service.
+      (AWS eu-central-1, Frankfurt). Historical analytics was processed by PostHog's EU service.
       The new public catalog is delivered by Cloudflare; new favorites and the bag stay
       on your device. Purchases on Communite are handled under the retailer's privacy policy.
     </p>
 
     <h2>Your rights</h2>
     <p>
-      You can delete your Finewild account in the app's Account tab. This removes your
-      sign-in account and historical synced favorites and clears the account's cached favorites and
-      addresses on that device. If account services are unavailable during the catalog
-      transition, contact us below for help accessing or deleting your existing account.
-      To request deletion of other data, including historical
-      analytics associated with your account, contact us using the address below. You can
-      remove device favorites by tapping their hearts and remove bag items from the bag.
+      The account-free release has no login or account-creation flow. Open More → Previous account &amp; data for information about records from earlier releases. Contact us below for access to or deletion of those records, including historical account-linked analytics. Removing this app does not delete earlier server records. Remove current device favorites by tapping their hearts and remove bag items from the bag.
     </p>
     <p>
       You can request a copy of your data, a correction, or complete deletion of your
